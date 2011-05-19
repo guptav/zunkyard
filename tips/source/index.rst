@@ -11,11 +11,11 @@ Contents:
    :maxdepth: 2
 
    bash.rst
-   media.rst
-   misc.rst
    networking.rst
    perl.rst
    vim.rst
+   media.rst
+   misc.rst
 
 
 Indices and tables
