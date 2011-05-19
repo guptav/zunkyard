@@ -3,7 +3,8 @@
 MAKE=/usr/bin/make
 
 # Project and Directories
-DIRECTORY=tips
+PDF_DIRECTORY=tips
+DIRECTORY=$(PDF_DIRECTORY)
 
 all: dir
 
@@ -16,7 +17,14 @@ dir:
 		cd -;               \
 	done
 
-
+pdf:
+	for i in $(PDF_DIRECTORY);      \
+	do                          \
+		echo "Cleaning $$i";  \
+		cd $$i ;            \
+		$(MAKE) $@ ;           \
+		cd -;               \
+	done
 clean:
 	for i in $(DIRECTORY);      \
 	do                          \
