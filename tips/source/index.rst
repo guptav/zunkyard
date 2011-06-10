@@ -16,6 +16,7 @@ Contents:
    vim.rst
    media.rst
    misc.rst
+   linux.rst
 
 
 Indices and tables
