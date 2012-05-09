@@ -17,6 +17,7 @@ Contents:
    media.rst
    misc.rst
    linux.rst
+   git.rst
 
 
 Indices and tables
