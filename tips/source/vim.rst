@@ -14,4 +14,8 @@ For copying text from gui to vim::
 
     :set tw=0 wrap linebreak noautoindent 
 
+- Using K to look up functions in the man pages
+- Finding variable declarations with gd and gD
+- Jumping to macro definitions with [^D and ]^D
+- Displaying macro definitions with ]d, ]d, [D, and ]D
 
